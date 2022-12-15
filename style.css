@@ -1,0 +1,279 @@
+html {
+    margin: 2%;
+}
+body {
+    margin: auto;
+    max-width: 860px;
+    font-size: 100%;
+    font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ body > header,
+ body > footer {
+    flex: 0 0 100%;
+ }
+
+ .dborder {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+ }
+
+.hwrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hwrap > a {
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+}
+
+h1::first-letter {
+    color: #00AF64;
+}
+
+.startpage h1 {
+    font-size: 500%;
+     }
+
+ .tagline {
+    font-size: 120%;
+    padding: 0.5em;
+    border-top: 3px double #00AF64;
+    border-bottom: 3px double #00AF64;
+    margin: 1em 0;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #999;
+}
+.menu > li,
+.menu > h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #F5F5F5;
+    text-align: center;
+    box-shadow: inset 0 0 20px #007241;
+    border-radius: 50%;
+    font-family: 'Merienda One', cursive;
+}
+
+.menu a {
+    display: block;
+}
+
+.menu {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 0 1rem;
+    list-style: none;
+}
+
+.menu a:link,
+.menu a:visited {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.menu a:focus,
+.menu a:hover {
+    text-decoration: underline;
+    color: #A62F00;
+}
+
+.menu a:active {
+    text-decoration: underline;
+    color: #FF4900;
+}
+.startpage .logo {
+    width: 235px;
+    height: 198px;
+}
+
+.startpage section {
+    flex: 0 0 22%;
+}
+.subpage .hwrap > a,
+
+nav {
+    flex: 0 1 20%;
+    min-width: 146px;
+    margin-right: 10px;
+
+}
+
+.subpage .logo {
+    width: 146px;
+    height: 123px;
+}
+
+.subpage .hwrap > h1,
+div[role=main] {
+    flex: 1 1 300px;
+}
+
+
+.subpage h1 {
+    font-size: 2.6rem;
+}
+h1 > span {
+    color: #A62F00;
+}
+
+.subpage .hwrap {
+    justify-content: space-between;
+
+}
+
+.subpage h2 {
+    text-align: center;
+
+}
+
+article {
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 3px double #00AF64;
+}
+
+article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+figure {
+    float: left;
+    margin: 0;
+}
+figure img {
+    width: 128px;
+    height: 128px;
+}
+figcaption {
+    font: italic bolder 110% sans-serif;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+}
+
+article p {
+    margin-left: 140px;
+    hyphens: auto;
+}
+table {
+}
+
+thead {
+}
+
+th, td {
+}
+
+th {
+}
+
+th:not(:last-child) {
+}
+
+td {
+}
+
+tr:target {
+}
+
+tr:hover {
+}
+
+tr {
+}
+.nivo-caption {
+}
+fieldset {
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-size: larger;
+}
+
+form p {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+label {
+    flex: 0 1 10ch;
+    text-align: right;
+    padding-right:1ch;
+}
+
+.reqfield {
+    flex: 0 0 2ch;
+    order: 1;
+    text-align: center;
+    padding-right: 0;
+}
+
+input[type=text],
+input[type =email],
+textarea {
+    flex: 1 1 25ch;
+    max-width: 300px
+}
+
+textarea {
+    height: 5em;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+}
+.tagline button {
+    /* display: none; */ /* Aktivera */
+}
+@media (max-width: 750px) {
+    .hwrap > a {
+        margin-right: 25px;
+    }
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 550px) {
+}
+/* 475 px was a breakpoint for flex design on subpages */
+@media (max-width: 476px) {
+}
+
+@media (max-width: 380px) {
+}
+}
